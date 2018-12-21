@@ -13,9 +13,9 @@ telepot API commands
 
 BASIC:
   telepot.Bot(TOKEN)
-    # main telegram bot reference
-        ## bot.sendMessage(chat_id,text,reply_markup=None)
-        ## reply_markup can be InlineKeyboardMarkup, ReplyKeyboardMarkup .etc
+    main telegram bot reference
+        -> bot.sendMessage(chat_id,text,reply_markup=None)
+        -> reply_markup can be InlineKeyboardMarkup, ReplyKeyboardMarkup .etc
 
   telepot.glance(msg)
     # analyse type of msg; returns dictionary {content_type, chat_type, chat_id}
